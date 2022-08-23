@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>SMKN 1 Subang</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <!-- navbar -->
+    <nav class="navbar">
+        <h1 class="logo">SMKN 1 Subang</h1>
+        <ul class="nav-links">
+            <li class="active"><a href=""></a>Beranda</li>
+            <li><a href=""></a>Profil</li>
+            <li><a href=""></a>Galeri</li>
+            <li><a href=""></a>Tentang</li>
+            <li class="ctn"><a href=""></a>Kontak</li>
+        </ul>
+        <img src="img/menu-btn.png" alt="" class="menu-btn">
+    </nav>
+
+    <header>
+        <div class="header-content">
+            <h2>We are the first, and our commitment is your satisfaction !</h2>
+            <div class="line"></div>
+            <h1>The School of CEREN Models</h1>
+            <a href="#" class="ctn">Learn More</a>
+        </div>
+    </header>
+
+    <!--Events-->
+    <section class="events">
+        <div class="title">
+            <h1>Prestasi Sekolah kami baru-baru ini</h1>
+            <div class="line"></div>
+        </div>
+        <div class="row">
+            <div class="col">
+                <img src="img/newimg1.png" alt="">
+                <h4>Juara 1 IT Software Solution for Bussiness</h4>
+                <p>Selamat Kepada Ananda Muhammad Arief Aliman
+                    Kelas XI RPL 2 dan Para Pembimbing dari TKI atas prestasi yang diraih dalam Lomba Kompetensi Siswa Tingkat Kabupaten Subang mata Lomba "IT Sofware Solution For Business " dan akan berlanjut di tingkat Provinsi.
+                    Mari dukung dan kirimkan doa terbaik kita agar bisa melaju sampai tingkat Nasional.</p>
+                <a href="#" class="ctn">Learn more</a>  
+            </div>
+            <div class="col">
+                <img src="img/newimg2.png" alt="">
+                <h4>Juara 1 Lomba Marketing Online</h4>
+                <p>Selamat Kepada Ananda Sesilia Natasya dan Para Pembimbing dari Jurusan Bisnis Daring dan Pemasaran atas prestasi yang diraih dalam Lomba Kompetensi Siswa Tingkat Kabupaten Subang mata Lomba "Marteking Online" dan akan berlanjut di tingkat Provinsi.
+                Mari dukung dan kirimkan doa terbaik kita agar bisa melaju sampai tingkat Nasional.</p>
+                <a href="#" class="ctn">Learn more</a>  
+            </div>
+        </div>
+    </section>
+
+    <section class="explore">
+        <div class="explore-content">
+            <h1>PKBN 2022</h1>
+            <div class="line">
+
+            </div>
+            <p>Membentuk Karakter Generasi Yang Tangguh, Hebat dan Pantang Menyerah Melalui Pendidikan Karakter dan Bela Negara</p>
+            <a href="#" class="ctn">Learn More</a>
+        </div>
+    </section>
+
+    <section class="tours">
+        <div class="row">
+            <div class="col content-col">
+                <h1>Lingkungan Sekolah kami</h1>
+                <div class="line"></div>
+                <p>Berikut foto lingkungan kami yang selalu
+                    kami usahakan tertata baik dan rapi.
+                    Karena kebersihan merupakan sebagian dari iman.
+                </p>
+                <a href="#" class="ctn">Learn more</a>
+            </div>
+            <div class="col image-col">
+                <div class="image-gallery">
+                    <img src="img/img3.jpeg" alt="">
+                    <img src="img/img4.jpg" alt="">
+                    <img src="img/img5.jpg" alt="">
+                    <img src="img/img6.jpeg" alt="">
+                </div>
+            </div>
+        </div>
+    </section>
+    
+    <section class="footer">
+        <p>Jalan Arief Rahman Hakim No 35, Kabupaten Subang, Jawa Barat | Telp: 0260-411410 | Email: info@smkn1subang.sch.id</p>
+        <p>Copyright &copy; 1965 SMKN 1 Subang</p>
+    </section>
+    
+    <script>
+        const menuBtn = document.querySelector('.menu-btn')
+        const navlinks = document.querySelector('.nav-links')
+
+        menuBtn.addEventListener('click',()=>{
+            navlinks.classList.toggle('mobile-menu')
+        })
+    </script>
+</body>
+</html>
